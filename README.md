@@ -1,14 +1,13 @@
 # flask-upload-dropzone
 Flask File Upload with Dropzone.js.
 
-![demo](https://raw.githubusercontent.com/helloflask/flask-upload-dropzone/master/static/demo.jpg)
+![demo](https://raw.githubusercontent.com/helloflask/flask-upload-dropzone/master/static/demo.JPG)
 
 ## Installation
 ```
 $ git clone https://github.com/helloflask/flask-upload-dropzone.git
 $ cd flask-upload-dropzone
 $ python app.py
-
 ```
 
 Now Go to http://127.0.0.1:5000/
