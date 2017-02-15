@@ -2,6 +2,9 @@
  * The MIT License
  * Copyright (c) 2012 Matias Meno <m@tias.me>
  */
+body {
+    background: #ddd;
+}
 
 @-webkit-keyframes passing-through {
     0% {
@@ -225,6 +228,7 @@
     min-height: 150px;
     border: 2px dashed #0087F7;
     background: white;
+    margin: 10% 20%;
     padding: 20px 20px;
 }
 
