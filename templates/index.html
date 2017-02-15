@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Flask upload with Dropzone example</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dropzone.css') }}">
+</head>
+
+<body>
+    <!-- Change action value to your upload address -->
+    <form action="{{ url_for('upload_file') }}" class="dropzone" method="POST" enctype="multipart/form-data">
+    </form>
+    <script src="{{ url_for('static', filename='dropzone.js') }}"></script>
+</body>
+
