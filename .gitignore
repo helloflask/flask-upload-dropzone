@@ -47,3 +47,4 @@ Temporary Items
 .apdisk
 
 upload/*
+!upload/.gitkeep
