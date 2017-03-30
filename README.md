@@ -1,6 +1,7 @@
 # flask-upload-dropzone
-Flask File Upload with Dropzone.js.
+Flask File Upload with Dropzone.js.  
 
+See also this Flask extension: [Flask-Dropzone](https://github.com/greyli/flask-dropzone).
 ![demo](https://raw.githubusercontent.com/helloflask/flask-upload-dropzone/master/static/demo.JPG)
 
 ## Installation
