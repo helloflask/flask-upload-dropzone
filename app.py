@@ -12,7 +12,7 @@ import os
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-app.config['UPLOADED_PATH'] = os.getcwd() + '/upload'
+app.config['UPLOADED_PATH'] = os.path.join(app.root_path, 'upload')
 
 
 @app.route('/', methods=['GET', 'POST'])
